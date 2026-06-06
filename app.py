@@ -356,12 +356,7 @@ with st.sidebar:
     st.divider()
 
     # Logo
-    st.markdown("**Logo para PDF**")
-    if _default_logo:
-        st.caption("✅ Logo cargado desde el repositorio.")
-    logo_file=st.file_uploader("Cambiar logo (opcional)",type=["png","jpg","jpeg"],
-                                key="logo",label_visibility="collapsed")
-    logo_bytes=logo_file.read() if logo_file else _default_logo
+    logo_bytes = _default_logo
 
 # ══════════════════════════════════════════════
 #  PANEL PRINCIPAL
