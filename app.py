@@ -366,7 +366,7 @@ with st.sidebar:
 # ══════════════════════════════════════════════
 #  PANEL PRINCIPAL
 # ══════════════════════════════════════════════
-st.markdown("<h1 style='font-size:28px;'>🔧 Dimensionamiento PRV — DOROT S300</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size:28px;'> Dimensionamiento PRV — DOROT S300</h1>", unsafe_allow_html=True)
 st.caption("Modelos 30 (PN 16 bar) / 31 (PN 25 bar)  ·  Válvulas reductoras de presión")
 st.caption("Desarrollado por M.I. Alan Sañudo, Ingeniería de Aplicaciones")
 
