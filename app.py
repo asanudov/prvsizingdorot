@@ -549,7 +549,7 @@ with st.expander("📋 Ver tabla de resultados completa"):
 # ══════════════════════════════════════════════
 #  PDF
 # ══════════════════════════════════════════════
-st.divider(); st.subheader("📄 Reporte PDF Profesional")
+st.divider(); st.subheader("Generar Reporte en PDF")
 st.caption("Datos · válvula · parámetros · gráficas · conclusiones")
 if "pdf_bytes" not in st.session_state: st.session_state.pdf_bytes=None
 c1,c2,_=st.columns([1,1,3])
