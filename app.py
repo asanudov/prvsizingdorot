@@ -295,7 +295,7 @@ def generate_pdf(logo_bytes,d):
 #  SIDEBAR
 # ══════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("## ⚙️ Parámetros de entrada")
+    st.markdown("## Datos de entrada")
     st.divider()
 
     # 1. Diámetro tubería
